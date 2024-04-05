@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  font-variation-settings:
+    "slnt" 0;
+}
+header {
+    width: 98%;
+    margin: auto;
+}
+.navbar {
+    margin-top: 21px;
+    display: flex;
+    width: 100%;
+}
+li {
+    list-style: none;
+}
+.nav-items-left {
+    display: flex;
+    width: 100%;
+    justify-content: left;
+}
+.nav-items-right {
+    display: flex;
+    width: 100%;
+    justify-content: right;
+}
+.nav-item {
+    margin: 7px;
+}
+a {
+    text-decoration: none;
+}
+.btn {
+    cursor: pointer;
+    padding: 11px;
+}
+.btn-primary {
+    background-color: blue;
+    color: white;
+}
+.buttons {
+    margin-top: 30px;
+}
+.btn-grey {
+    background-color: rgb(247, 241, 241);
+    color: black;
+    font-size: 12px;
+}
+.display-4 {
+    font-size: 7rem;
+    font-weight: 400;
+    margin-bottom: 12px;
+}
+.blue {
+    color: blue;
+}
+.red {
+    color: red;
+}
+.yellow {
+    color: yellow;
+}
+.green {
+    color: green;
+}
+.container {
+    width: 90%;
+    margin: auto;
+    text-align: center;
+}
+.my-5 {
+    margin-top: 20px;
+}
+.form-wrapper {
+    justify-content: center;
+}
+.form-control {
+    padding: 12px;
+    width: 600px;
+    border: 1px solid rgb(221, 214, 214);
+    border-radius: 27px;
+}
+.icon-1 {
+    position: relative;
+    right: -40px;
+}
+.icon-2 {
+    position: relative;
+    left: -70px;
+    margin-right: 12px;
+}
+.mic {
+    color: blue;
+}
+.search-text {
+    margin-top: 40px;
+    font-weight: 400;
+}
