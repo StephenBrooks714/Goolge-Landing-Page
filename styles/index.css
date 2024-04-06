@@ -60,7 +60,7 @@ a {
     font-size: 12px;
 }
 .display-4 {
-    font-size: 7rem;
+    font-size: 6rem;
     font-weight: 400;
     margin-bottom: 12px;
 }
@@ -93,6 +93,10 @@ a {
     min-width: 500px;
     border: 1px solid rgb(221, 214, 214);
     border-radius: 27px;
+}
+input:focus {
+    box-shadow: 11px 9px 11px 9px lightgrey;
+    border: 1px double;
 }
 .icon-1 {
     position: relative;
@@ -143,4 +147,36 @@ a {
         border: 1px solid rgb(221, 214, 214);
         border-radius: 27px;
     }
+}
+
+#footer {
+    position: fixed;
+    bottom: 0;
+    height: auto;
+    width: 100%;
+    background-color: lightgrey;
+    padding: 17px;
+    font-size: 14px;
+}
+.footer-wrapper {
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+.col-1 {
+    text-align: start;
+}
+.col-2 {
+    text-align: center;
+}
+.col-3 {
+    text-align: end;
+}
+.col-1  a {
+    color: black;
+}
+.col-2  a {
+    color: black;
+}
+.col-3  a {
+    color: black;
 }

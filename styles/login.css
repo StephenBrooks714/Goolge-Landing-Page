@@ -1,0 +1,75 @@
+body {
+    background-color: #F4F4F4;
+}
+.container {
+    width: 95%;
+    margin: auto;
+    padding-top: 160px;
+}
+.card {
+    margin: auto;
+    max-width: 850px;
+    min-width: 330px;
+    border: 1px solid white;
+    background-color: white;
+    border-radius: 23px;
+    padding-top: 10px;
+    padding-bottom: 60px;
+}
+.row {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-area: auto;
+}
+.col-1 {
+    margin: 30px;
+    float: left;
+}
+.col-1 img {
+    clear: both;
+}
+.col-2 {
+    margin: 30px;
+    padding-top: 60px;
+    float: right;
+    text-align: start;
+}
+h1 {
+    font-weight: 400;
+}
+hr {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 300px;
+}
+
+.status-text {
+    padding-left: 90px;
+    font-weight: 200;
+}
+.status-email {
+    font-weight: 200;
+}
+.otherAccount {
+    font-weight: 300;
+}
+.mt-5 {
+    margin-top: 10px;
+}
+.row-container {
+    width: 80%;
+    margin: auto;
+}
+.select {
+    border: 1px solid #f4f4f4;
+    border-radius: 23px;
+    padding: 9px;
+}
+.col-4 {
+    padding-top: 30px;
+    text-align: end;
+}
+.col-4 a {
+    padding-right: 20px;
+    font-size: 14px;
+}
